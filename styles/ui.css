@@ -213,7 +213,7 @@ body {
     margin-top: 20px;
     width: 150px;
     height: 100px;
-    background-color: #87CEFA;
+    background-color: #0eec96;
     line-height: 100px;
     text-align: center;
     border-radius: 150px;
@@ -246,7 +246,8 @@ body {
     margin-top: 40px;
     width: 200px;
     height: 100px;
-    background-color: #87CEFA;
+    background-color: #ff3d05;
+    ;
     line-height: 100px;
     text-align: center;
     border-radius: 200px;
@@ -260,9 +261,11 @@ body {
     background-position: inherit;
 }
 
-#replay:hover {
+
+/*#replay:hover {
     opacity: 1;
 }
+*/
 
 #won,
 #lost,
