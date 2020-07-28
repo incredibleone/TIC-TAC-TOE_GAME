@@ -38,15 +38,36 @@ body {
 }
 
 .suit {
-    position: absolute;
+    position: fixed;
     margin-left: 2px;
     margin-right: 30px;
     margin-top: 50px;
-    animation: anime 5s infinite;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 15px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
 }
 
 .robot {
-    position: absolute;
+    position: fixed;
     margin-right: 10px;
     margin-left: 400px;
     margin-top: 50px;
@@ -183,9 +204,10 @@ body {
     opacity: 0.5;
 }
 
-.not-selected:hover {
+
+/*.not-selected:hover {
     opacity: 1;
-}
+}*/
 
 .start {
     margin-top: 20px;
